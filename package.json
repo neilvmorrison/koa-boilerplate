@@ -1,0 +1,28 @@
+{
+  "name": "todo-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Neil Morrison",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.5.0",
+    "mongoose": "^5.8.7",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.2",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3"
+  }
+}
